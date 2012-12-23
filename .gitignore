@@ -5,9 +5,14 @@
 *.war
 *.ear
 
-# Directories #
+# Eclipse Files #
 .classpath
 .metadata
 .project
 .settings
+
+# Maven Files #
+target
+
+# Subversion Files
 .svn
