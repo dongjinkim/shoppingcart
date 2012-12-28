@@ -14,7 +14,8 @@ public class WelcomeUserAction extends ActionSupport {
 	private static final long serialVersionUID = -3048006367675812785L;
 
 	@Override
-	@Action(value="Welcome", results={@Result(name="success", location="pages/welcome_user.jsp")})
+	//@Action(value="Welcome", results={@Result(name="success", location="pages/welcome_user.jsp")})
+	@Action(value="Welcome", results={@Result(name="success", location="/welcome_user.tiles", type="tiles")})
 	public String execute() {
 		return SUCCESS;
 	}

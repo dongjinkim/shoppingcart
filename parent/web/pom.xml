@@ -10,6 +10,7 @@
   
   <properties>
   	<struts.version>2.3.8</struts.version>
+  	<tiles.version>2.2.2</tiles.version>
   </properties>
   
   <dependencies>
@@ -22,6 +23,26 @@
   		<groupId>org.apache.struts</groupId>
   		<artifactId>struts2-convention-plugin</artifactId>
   		<version>${struts.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.struts</groupId>
+  		<artifactId>struts2-tiles-plugin</artifactId>
+  		<version>${struts.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.tiles</groupId>
+  		<artifactId>tiles-core</artifactId>
+  		<version>${tiles.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.tiles</groupId>
+  		<artifactId>tiles-api</artifactId>
+  		<version>${tiles.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.tiles</groupId>
+  		<artifactId>tiles-jsp</artifactId>
+  		<version>${tiles.version}</version>
   	</dependency>
   </dependencies>
 </project>
